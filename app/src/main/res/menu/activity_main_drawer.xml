@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_lists"
+            android:icon="@drawable/ic_format_list_numbered_black_24dp"
+            android:title="Lists" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="Calendar" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="Search" />
+        <item
+            android:id="@+id/nav_done"
+            android:icon="@drawable/ic_done_black_24dp"
+            android:title="Done" />
+    </group>
+
+    <item android:title="Options"
+        android:checkableBehavior="single">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Setting" />
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/ic_insert_emoticon_black_24dp"
+                android:title="About us" />
+        </menu>
+    </item>
+
+</menu>
